@@ -1,0 +1,104 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "concept": "arrays",
+      "text": "What is an array and what are its key characteristics?",
+      "rubric": {
+        "definition": "Should mention: collection of elements, indexed access, contiguous memory, homogeneous data type",
+        "reasoning": "Should explain why arrays are efficient for random access",
+        "application": "Should give an example use case"
+      }
+    },
+    {
+      "id": "q2",
+      "concept": "arrays",
+      "text": "Explain the time complexity of accessing, inserting, and deleting elements in an array.",
+      "rubric": {
+        "definition": "Should state O(1) for access, O(n) for insert/delete at beginning/middle",
+        "reasoning": "Should explain why these complexities occur (shifting elements)",
+        "application": "Should discuss when to use arrays vs other data structures"
+      }
+    },
+    {
+      "id": "q3",
+      "concept": "sorting",
+      "text": "Explain how bubble sort works and its time complexity.",
+      "rubric": {
+        "definition": "Should describe pairwise comparisons and swapping",
+        "reasoning": "Should explain why it's O(n²) in worst/average case",
+        "application": "Should mention when bubble sort might be appropriate"
+      }
+    },
+    {
+      "id": "q4",
+      "concept": "sorting",
+      "text": "Compare and contrast merge sort and quick sort.",
+      "rubric": {
+        "definition": "Should define both algorithms (divide and conquer)",
+        "reasoning": "Should explain time/space complexity differences",
+        "application": "Should discuss use cases for each"
+      }
+    },
+    {
+      "id": "q5",
+      "concept": "binary_search",
+      "text": "Explain the binary search algorithm and its prerequisites.",
+      "rubric": {
+        "definition": "Should describe halving search space, sorted array requirement",
+        "reasoning": "Should explain O(log n) time complexity",
+        "application": "Should give an example problem solved by binary search"
+      }
+    },
+    {
+      "id": "q6",
+      "concept": "binary_search",
+      "text": "Write pseudocode for binary search and explain each step.",
+      "rubric": {
+        "definition": "Should include left/right pointers, midpoint calculation",
+        "reasoning": "Should explain termination conditions",
+        "application": "Should discuss edge cases (empty array, element not found)"
+      }
+    },
+    {
+      "id": "q7",
+      "concept": "recursion",
+      "text": "What is recursion and what are its base case and recursive case?",
+      "rubric": {
+        "definition": "Should define recursion as self-referential function calls",
+        "reasoning": "Should explain need for base case to prevent infinite recursion",
+        "application": "Should give an example (factorial, Fibonacci)"
+      }
+    },
+    {
+      "id": "q8",
+      "concept": "recursion",
+      "text": "Explain the call stack in recursion and potential issues.",
+      "rubric": {
+        "definition": "Should describe stack frames and memory usage",
+        "reasoning": "Should explain stack overflow risk with deep recursion",
+        "application": "Should discuss when to use recursion vs iteration"
+      }
+    },
+    {
+      "id": "q9",
+      "concept": "backtracking",
+      "text": "What is backtracking and how does it differ from brute force?",
+      "rubric": {
+        "definition": "Should define backtracking as incremental solution building with pruning",
+        "reasoning": "Should explain how it avoids exploring invalid paths",
+        "application": "Should mention classic problems (N-Queens, Sudoku)"
+      }
+    },
+    {
+      "id": "q10",
+      "concept": "backtracking",
+      "text": "Explain the general template for backtracking algorithms.",
+      "rubric": {
+        "definition": "Should describe choose-explore-unchoose pattern",
+        "reasoning": "Should explain recursion tree and pruning conditions",
+        "application": "Should provide pseudocode template"
+      }
+    }
+  ]
+}

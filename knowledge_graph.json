@@ -1,0 +1,61 @@
+{
+  "concepts": {
+    "Arrays": {
+      "id": "arrays",
+      "name": "Arrays",
+      "description": "A collection of elements identified by index or key",
+      "prerequisites": [],
+      "difficulty": "beginner"
+    },
+    "Sorting": {
+      "id": "sorting",
+      "name": "Sorting",
+      "description": "Arranging data in a particular order",
+      "prerequisites": ["arrays"],
+      "difficulty": "beginner"
+    },
+    "Binary Search": {
+      "id": "binary_search",
+      "name": "Binary Search",
+      "description": "Search algorithm that finds the position of a target value within a sorted array",
+      "prerequisites": ["arrays", "sorting"],
+      "difficulty": "intermediate"
+    },
+    "Recursion": {
+      "id": "recursion",
+      "name": "Recursion",
+      "description": "A method where the solution to a problem depends on solutions to smaller instances of the same problem",
+      "prerequisites": [],
+      "difficulty": "intermediate"
+    },
+    "Backtracking": {
+      "id": "backtracking",
+      "name": "Backtracking",
+      "description": "Algorithmic technique for solving problems recursively by trying to build a solution incrementally",
+      "prerequisites": ["recursion"],
+      "difficulty": "advanced"
+    }
+  },
+  "relationships": [
+    {
+      "from": "sorting",
+      "to": "arrays",
+      "type": "prerequisite"
+    },
+    {
+      "from": "binary_search",
+      "to": "arrays",
+      "type": "prerequisite"
+    },
+    {
+      "from": "binary_search",
+      "to": "sorting",
+      "type": "prerequisite"
+    },
+    {
+      "from": "backtracking",
+      "to": "recursion",
+      "type": "prerequisite"
+    }
+  ]
+}
